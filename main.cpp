@@ -1,8 +1,11 @@
-/*This is a..*/
+//
+// This program is just an example one under VCS.
+// Author: Ulyana Melkozerova, KEz-182, 2023 year.
+//
+
 #include <iostream>
 
 using namespace std;
-
 
 int main()
 {
@@ -14,4 +17,6 @@ int main()
     cout << "a + b = " << c << endl;
     c = a - b;
     cout << "a - b = " << c << endl;
+    cout << "a * b = " << a * b << endl;
+    return 0;
 }
